@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "popup/*": [
+        "popup/*"
+      ],
+      "background/*": [
+        "background/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true
+  }
+}

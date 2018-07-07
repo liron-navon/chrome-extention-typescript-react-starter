@@ -1,0 +1,10 @@
+.awcache
+.vscode
+
+.DS_STORE
+node_modules
+dist/
+coverage/
+*.log*
+yarn.lock
+package-lock.josn

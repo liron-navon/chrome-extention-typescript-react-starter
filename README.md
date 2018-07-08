@@ -17,8 +17,7 @@ the version must be 3 integers separated by a dot, for deployment in the chrome 
 ### Structure
     .
     ├── dist                # where you'r final build will be (when running build you will also have the zip file here)
-    ├── docs                # Documentation files (alternatively `doc`)
-    ├── src                 # Source files (alternatively `lib` or `app`)
+    ├── src                 # Source files
         ├── assets          # images, icons, etc...
         ├── popup           # used for our front end, use the webpacka alias "popup" to access the files inside
         ├── background      # used for background operations, use the webpacka alias "background" to access the files inside

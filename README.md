@@ -6,7 +6,7 @@ Boilerplate for creating a Chrome Extension with React, TypeScript, emotion jss,
 2. Update HTML name in package.json (effects both html title and manifest name)
 3. Install dependencies with `npm install`
 4. Run hot module reload dev server with `npm run dev`
-5. Open [chrome://extensions/](chrome://extensions/) in chrome, activate development mode, and select load unpacked, 
+5. Open [chrome://extensions](chrome://extensions) in chrome, activate development mode, and select load unpacked, 
 pick your dist folder and your'e done.
 
 - You can also run `npm run build` which will also generate a zip file inside `dist` with the name of the repo 

@@ -11,11 +11,12 @@ pick your dist folder and your'e done.
 
 - You can also run `npm run build` which will also generate a zip file inside `dist` with the name of the repo 
 prefixed by the environment, which you should upload to google when publishing the extension.
-- To change version just run 
+- To change version just run `npm version 1.4.2 && git push --tags` or whatever version you want, please notice that the version must be 3 
+integers separated by a dot, for deployment in the chrome store.
 ---
 ### Structure
     .
-    ├── dist                # where you'r final build will be
+    ├── dist                # where you'r final build will be (when running build you will also have the zip file here)
     ├── docs                # Documentation files (alternatively `doc`)
     ├── src                 # Source files (alternatively `lib` or `app`)
         ├── assets          # images, icons, etc...

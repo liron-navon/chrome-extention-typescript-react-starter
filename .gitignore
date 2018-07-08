@@ -8,4 +8,4 @@ coverage
 .idea
 *.log*
 yarn.lock
-package-lock.josn
+package-lock.json

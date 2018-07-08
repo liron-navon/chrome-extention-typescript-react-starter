@@ -1,7 +1,7 @@
 {
   "name": "chrome-extention-typescript-react-starter",
   "version": "0.0.3",
-  "description": "Boilerplate for creating a Chrome Extention with React, TypeScript, emotion jss, jest and Webpack",
+  "description": "Boilerplate for creating a Chrome Extension with React, TypeScript, emotion jss, jest and Webpack",
   "licenses": [
     {
       "type": "MIT"

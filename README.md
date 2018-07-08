@@ -1,5 +1,5 @@
 # chrome-extention-typescript-react-starter
-Boilerplate for creating a Chrome Extention with React, TypeScript, emotion jss, jest and Webpack
+Boilerplate for creating a Chrome Extension with React, TypeScript, emotion jss, jest and Webpack
 
 ### Usage
 1. Clone
@@ -11,8 +11,8 @@ pick your dist folder and your'e done.
 
 - You can also run `npm run build` which will also generate a zip file inside `dist` with the name of the repo 
 prefixed by the environment, which you should upload to google when publishing the extension.
-- To change version just run `npm version 1.4.2 && git push --tags` or whatever version you want, please notice that the version must be 3 
-integers separated by a dot, for deployment in the chrome store.
+- To change version just run `npm version 1.4.2 && git push --tags` or whatever version you want, please notice that 
+the version must be 3 integers separated by a dot, for deployment in the chrome store, so 1.4.2-a wont work properly.
 ---
 ### Structure
     .

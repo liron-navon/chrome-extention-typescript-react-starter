@@ -9,6 +9,13 @@ Boilerplate for creating a Chrome Extension with React, TypeScript, emotion jss,
 5. Open `chrome://extensions` in chrome, activate development mode, and select load unpacked, 
 pick your dist folder and your'e done.
 
+
+
+and you should be greeted with the following popup:
+![screenshot](https://image.ibb.co/f8crK8/Screen_Shot_2018_07_09_at_11_03_32.png)
+
+
+
 - You can also run `npm run build` which will also generate a zip file inside `dist` with the name of the repo 
 prefixed by the environment, which you should upload to google when publishing the extension.
 - To change version just run `npm version 1.4.2 && git push --tags` or whatever version you want, please notice that 
@@ -31,8 +38,6 @@ the version must be 3 integers separated by a dot, for deployment in the chrome 
 - Run `yarn run devtest` in another terminal window
 
 This will allow you to actively write app code and unit test code with continuous webpack HMR and test runs.
-
-![screenshot](https://image.ibb.co/f8crK8/Screen_Shot_2018_07_09_at_11_03_32.png)
 
 ---
 <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
